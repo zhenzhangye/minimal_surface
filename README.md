@@ -11,10 +11,46 @@ Based on aminimal user input, this algorithm interactively determines the object
 
 This code has two three party dependencies:
 
-0) MATLAB (works under MATLAB R2019a)
+0) MATLAB (mandatory)
 
-1) [CUDA](https://developer.nvidia.com/cuda-zone) (works under CUDA-8.0)
+1) [CUDA](https://developer.nvidia.com/cuda-zone) (mandatory)
 
-## 2. Input
-- One RGB image `I`.
-- A blooean binary `mask` describing the silhouette in the RGB image.
+2) [CMake](https://cmake.org/) (mandatory)
+
+## 2. Getting started
+This code is tested under:
+* Ubuntu 16.04
+* CMake 3.5.1
+* CUDA 8.0
+* MATLAB R2019a
+
+## 3. Input
+- `mask`: a boolean binary describing the silhouette.
+- `volume`: the desired volume of result.
+
+## 4. Parameters
+- `max_iter`: the max number of iteration for gradient descent.
+- `tol`: the stopping criterion by residual.
+- `tau`: the step size for gradient descent.
+
+## 5. License
+
+DepthSRfromShading is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, see [here](http://creativecommons.org/licenses/by-nc-sa/4.0/), with an additional request:
+
+If you make use of the library in any form in a scientific publication, please refer to `https://github.com/BjoernHaefner/DepthSRfromShading` and cite the paper
+
+```
+@inProceedings{Oswald-et-al-cvpr12,
+  author    = {M. R. Oswald and E. Toeppe and D. Cremers},
+  title     = {Fast and Globally Optimal Single View Reconstruction of Curved Objects},
+  booktitle = cvpr,
+  year      = {2012},
+  address   = {Providence, Rhode Island},
+  month     = jun,
+  titleurl  = {oswald_toeppe_cremers_cvpr12.pdf},
+  topic = {Single View Reconstruction},
+  pages = {534-541},
+  keywords = {convex-relaxation, singleview}
+}
+
+```
