@@ -26,18 +26,24 @@ This code is tested under:
 
 Download the demo [dataset](https://vision.in.tum.de/data/datasets/photometricdepthsr):
 * `cd pathto/code/data`
+
 * `./download.sh`
 
 Build Mex file:
 * Set `MATLAB_ROOT` environment variable in to your installed matlab path, such as
+
 `export MATLAB_ROOT='/usr/local/MATLAB/R2019a'` in `~/.bashrc`
+
 * In Terminal do
 `cd pathto/code`
 `mkdir build`
 `cmake ..`
 `make`
+
 * In `build/lib` is the mex file and in `build/bin` is the binary
+
 * `cd ..`
+
 * execute the matlab script `example.m`
 
 ## 3. Input
