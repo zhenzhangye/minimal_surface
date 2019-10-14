@@ -23,9 +23,11 @@ This code is tested under:
 * CMake 3.5.1
 * CUDA 8.0
 * MATLAB R2019a
+
 Download the demo [dataset](https://vision.in.tum.de/data/datasets/photometricdepthsr):
 * `cd pathto/code/data`
 * `./download.sh`
+
 Build Mex file:
 * Set `MATLAB_ROOT` environment variable in to your installed matlab path, such as
 `export MATLAB_ROOT='/usr/local/MATLAB/R2019a'` in `~/.bashrc`
