@@ -35,13 +35,13 @@ Build Mex file:
   `export MATLAB_ROOT='/usr/local/MATLAB/R2019a'` in `~/.bashrc`
 
 * In Terminal do
-`cd pathto/code`
+  `cd pathto/code`
 
-`mkdir build`
+  `mkdir build`
 
-`cmake ..`
+  `cmake ..`
 
-`make`
+  `make`
 
 * In `build/lib` is the mex file and in `build/bin` is the binary
 
