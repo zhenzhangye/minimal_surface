@@ -37,7 +37,7 @@ This code is tested under:
 
 DepthSRfromShading is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, see [here](http://creativecommons.org/licenses/by-nc-sa/4.0/), with an additional request:
 
-If you make use of the library in any form in a scientific publication, please refer to `https://github.com/BjoernHaefner/DepthSRfromShading` and cite the paper
+If you make use of the library in any form in a scientific publication, please refer to `https://github.com/zhenzhangye/minimal_surface` and cite the paper
 
 ```
 @inProceedings{Oswald-et-al-cvpr12,
