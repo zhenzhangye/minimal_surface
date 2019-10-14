@@ -32,12 +32,15 @@ Download the demo [dataset](https://vision.in.tum.de/data/datasets/photometricde
 Build Mex file:
 * Set `MATLAB_ROOT` environment variable in to your installed matlab path, such as
 
-`export MATLAB_ROOT='/usr/local/MATLAB/R2019a'` in `~/.bashrc`
+  `export MATLAB_ROOT='/usr/local/MATLAB/R2019a'` in `~/.bashrc`
 
 * In Terminal do
 `cd pathto/code`
+
 `mkdir build`
+
 `cmake ..`
+
 `make`
 
 * In `build/lib` is the mex file and in `build/bin` is the binary
