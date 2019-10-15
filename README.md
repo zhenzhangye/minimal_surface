@@ -77,7 +77,8 @@ doi={10.1109/CVPR.2012.6247718},
 ISSN={},
 month={June},
 }
-
+```
+```
 @article{haefner2019variational,
   title={Variational Uncalibrated Photometric Stereo under General Lighting},
   author={Haefner, Bjoern and Ye, Zhenzhang and Gao, Maolin and Wu, Tao and Qu{\'e}au, Yvain and Cremers, Daniel},
