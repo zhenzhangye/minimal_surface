@@ -1,5 +1,5 @@
 # minimal_surface
-This code implements the approach for [this paper](https://vision.in.tum.de/_media/spezial/bib/windheuser-et-al-miru12.pdf) with gradient descent on GPU:
+This code implements the approach for [this paper](https://vision.in.tum.de/_media/spezial/bib/oswald_toeppe_cremers_cvpr12.pdf) with gradient descent on GPU:
 
 > **Fast and Globally Optimal Single View Reconstruction of Curved Objects**
 > *M. R. Oswald, E. Toeppe and D. Cremers; In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012.*
