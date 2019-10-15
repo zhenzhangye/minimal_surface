@@ -66,16 +66,13 @@ If you make use of the library in any form in a scientific publication, please r
 
 ```
 @INPROCEEDINGS{6247718,
-author={M. R. {Oswald} and E. {Töppe} and D. {Cremers}},
-booktitle={2012 IEEE Conference on Computer Vision and Pattern Recognition},
-title={Fast and globally optimal single view reconstruction of curved objects},
-year={2012},
-volume={},
-number={},
-pages={534-541},
-doi={10.1109/CVPR.2012.6247718},
-ISSN={},
-month={June},
+  author={M. R. {Oswald} and E. {Töppe} and D. {Cremers}},
+  booktitle={2012 IEEE Conference on Computer Vision and Pattern Recognition},
+  title={Fast and globally optimal single view reconstruction of curved objects},
+  year={2012},
+  pages={534-541},
+  doi={10.1109/CVPR.2012.6247718},
+  month={June},
 }
 ```
 ```
