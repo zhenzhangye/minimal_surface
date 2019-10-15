@@ -9,7 +9,7 @@ Based on a minimal user input, this algorithm interactively determines the objec
 
 ## 1. Requirements
 
-This code has two three party dependencies:
+This code has three party dependencies:
 
 0) MATLAB (mandatory)
 
