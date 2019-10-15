@@ -3,7 +3,7 @@ This code implements the approach for [this paper](https://vision.in.tum.de/_med
 
 > **Fast and Globally Optimal Single View Reconstruction of Curved Objects**
 > *M. R. Oswald, E. Toeppe and D. Cremers; In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012.*
-![alt tag](https://vision.in.tum.de/_media/spezial/bib/oswald_toeppe_cremers_cvpr12.jpg)
+![alt tag](https://vision.in.tum.de/_media/spezial/bib/minimal_surface.png)
 
 Based on a minimal user input, this algorithm interactively determines the objects' silhouette and subsequently computes a silhouette-consistent 3D model which is precisely the globally minimal surface with user-specified volume.
 
