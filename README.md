@@ -1,11 +1,11 @@
 # minimal_surface
-This code implements the algorithm from [this paper](https://vision.in.tum.de/_media/spezial/bib/oswald_toeppe_cremers_cvpr12.pdf), whichcomputes optimal silhouette-consistent minimal surfaces of given volume with gradient descent on GPU:
+This code implements the basic algorithm from [this paper](https://vision.in.tum.de/_media/spezial/bib/oswald_toeppe_cremers_cvpr12.pdf), which only computes optimal silhouette-consistent minimal surfaces of given volume with gradient descent on GPU:
 
 > **Fast and Globally Optimal Single View Reconstruction of Curved Objects**
 > *M. R. Oswald, E. Toeppe and D. Cremers; In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012.*
 ![alt tag](https://vision.in.tum.de/_media/spezial/bib/minimal_surface.png)
 
-Based on a minimal user input, this algorithm interactively determines the objects' silhouette and subsequently computes a silhouette-consistent 3D model which is precisely the globally minimal surface with user-specified volume.
+Based on a minimal user input, this algorithm interactively determines the objects' silhouette and subsequently computes a silhouette-consistent 3D model which is precisely the globally minimal surface with user-specified volume. In above paper, the authors also proposed the weighted minimal surface which is NOT included in this repository.
 
 ## 1. Requirements
 
@@ -62,20 +62,27 @@ Build Mex file:
 
 minimal_surface is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, see [here](http://creativecommons.org/licenses/by-nc-sa/4.0/), with an additional request:
 
-If you make use of the library in any form in a scientific publication, please refer to `https://github.com/zhenzhangye/minimal_surface` and cite the paper
+If you make use of the library in any form in a scientific publication, please refer to `https://github.com/zhenzhangye/minimal_surface` and cite following papers
 
 ```
-@inProceedings{Oswald-et-al-cvpr12,
-  author    = {M. R. Oswald and E. Toeppe and D. Cremers},
-  title     = {Fast and Globally Optimal Single View Reconstruction of Curved Objects},
-  booktitle = cvpr,
-  year      = {2012},
-  address   = {Providence, Rhode Island},
-  month     = jun,
-  titleurl  = {oswald_toeppe_cremers_cvpr12.pdf},
-  topic = {Single View Reconstruction},
-  pages = {534-541},
-  keywords = {convex-relaxation, singleview}
+@INPROCEEDINGS{6247718,
+author={M. R. {Oswald} and E. {Töppe} and D. {Cremers}},
+booktitle={2012 IEEE Conference on Computer Vision and Pattern Recognition},
+title={Fast and globally optimal single view reconstruction of curved objects},
+year={2012},
+volume={},
+number={},
+pages={534-541},
+doi={10.1109/CVPR.2012.6247718},
+ISSN={},
+month={June},
+}
+
+@article{haefner2019variational,
+  title={Variational Uncalibrated Photometric Stereo under General Lighting},
+  author={Haefner, Bjoern and Ye, Zhenzhang and Gao, Maolin and Wu, Tao and Qu{\'e}au, Yvain and Cremers, Daniel},
+  journal={arXiv preprint arXiv:1904.03942},
+  year={2019}
 }
 
 ```
