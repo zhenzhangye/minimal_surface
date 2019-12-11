@@ -39,6 +39,8 @@ Build Mex file:
 
   `mkdir build`
 
+  `cd build`
+
   `cmake ..`
 
   `make`
